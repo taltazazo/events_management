@@ -1,0 +1,35 @@
+{
+  "name": "workers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db-woker.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&&node index.js",
+    "test": "set NODE_ENV=testing&&jest --maxWorkers=1"
+  },
+  "keywords": [],
+  "author": "tal",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.4.0",
+    "dotenv": "^8.2.0",
+    "email-templates": "^6.0.3",
+    "json-socket": "^0.3.0",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.3",
+    "nodemailer": "^6.3.1",
+    "pug": "^2.0.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.20.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "supertest": "^4.0.2"
+  }
+}

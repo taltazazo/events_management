@@ -1,0 +1,290 @@
+Sun, 20 Oct 2019 08:41:48 GMT: error: uncaughtException: jest is not defined
+ReferenceError: jest is not defined
+    at Object.<anonymous> (c:\Users\Tazazo\Desktop\Tazaz\events\tests\routes\places.test.js:16:17)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+Sun, 20 Oct 2019 09:19:57 GMT: error: uncaughtException: Caught error after test environment was torn down
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 500
+Error: Caught error after test environment was torn down
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 500
+    at Object.toBe (C:\Users\Tazazo\Desktop\Tazaz\events\tests\elastic\search.test.js:97:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue, 22 Oct 2019 10:26:31 GMT: error: uncaughtException: index_already_exists_exception
+ResponseError: index_already_exists_exception
+    at IncomingMessage.response.on (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\@elastic\elasticsearch\lib\Transport.js:287:25)
+    at IncomingMessage.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Tue, 22 Oct 2019 10:32:48 GMT: error: uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object._lazyLoad [as putMapping] (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\@elastic\elasticsearch\api\index.js:552:39)
+    at putMapping (C:\Users\Tazazo\Desktop\Tazaz\events\elastic.js:49:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue, 22 Oct 2019 10:34:35 GMT: error: uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object._lazyLoad [as putMapping] (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\@elastic\elasticsearch\api\index.js:552:39)
+    at putMapping (C:\Users\Tazazo\Desktop\Tazaz\events\elastic.js:49:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue, 22 Oct 2019 10:35:34 GMT: error: uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object._lazyLoad [as putMapping] (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\@elastic\elasticsearch\api\index.js:552:39)
+    at putMapping (C:\Users\Tazazo\Desktop\Tazaz\events\elastic.js:51:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue, 22 Oct 2019 10:38:59 GMT: error: uncaughtException: require(...) is not a function
+TypeError: require(...) is not a function
+    at Object._lazyLoad [as putMapping] (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\@elastic\elasticsearch\api\index.js:552:39)
+    at putMapping (C:\Users\Tazazo\Desktop\Tazaz\events\elastic.js:49:20)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue, 22 Oct 2019 10:39:55 GMT: error: uncaughtException: Caught error after test environment was torn down
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 500
+Error: Caught error after test environment was torn down
+
+expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 500
+    at Object.toBe (C:\Users\Tazazo\Desktop\Tazaz\events\tests\routes\users.test.js:112:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Tue, 22 Oct 2019 10:53:45 GMT: error: uncaughtException: Caught error after test environment was torn down
+
+socket hang up
+Error: Caught error after test environment was torn down
+
+socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Invalid Date: error: uncaughtException: Caught error after test environment was torn down
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m200[39m
+Received: [31m500[39m
+Error: Caught error after test environment was torn down
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m200[39m
+Received: [31m500[39m
+    at Object.toBe (C:\Users\Tazazo\Desktop\Tazaz\events\tests\routes\places.test.js:298:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Invalid Date: error: uncaughtException: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\mongoose\lib\error\mongooseError.js:10:11)
+    at NativeConnection.Connection.openUri (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\mongoose\lib\connection.js:519:11)
+    at Mongoose.connect (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\mongoose\lib\index.js:314:15)
+    at module.exports (C:\Users\Tazazo\Desktop\Tazaz\events\startup\db.js:7:6)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\index.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+Invalid Date: error: uncaughtException: Caught error after test environment was torn down
+
+connect ECONNREFUSED 127.0.0.1:80
+Error: connect ECONNREFUSED 127.0.0.1:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+Invalid Date: error: uncaughtException: Caught error after test environment was torn down
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m200[39m
+Received: [31m404[39m
+Error: Caught error after test environment was torn down
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m200[39m
+Received: [31m404[39m
+    at Object.toBe (C:\Users\Tazazo\Desktop\Tazaz\events\tests\routes\events.test.js:150:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Invalid Date: error: uncaughtException: /app/node_modules/bcrypt/lib/binding/bcrypt_lib.node: invalid ELF header
+Error: /app/node_modules/bcrypt/lib/binding/bcrypt_lib.node: invalid ELF header
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1041:18)
+    at Module.load (internal/modules/cjs/loader.js:822:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:730:14)
+    at Module.require (internal/modules/cjs/loader.js:864:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/app/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Module.load (internal/modules/cjs/loader.js:822:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:730:14)
+    at Module.require (internal/modules/cjs/loader.js:864:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/app/routes/users.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Module.load (internal/modules/cjs/loader.js:822:32)
+Invalid Date: error: uncaughtException: /app/node_modules/bcrypt/lib/binding/bcrypt_lib.node: invalid ELF header
+Error: /app/node_modules/bcrypt/lib/binding/bcrypt_lib.node: invalid ELF header
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1041:18)
+    at Module.load (internal/modules/cjs/loader.js:822:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:730:14)
+    at Module.require (internal/modules/cjs/loader.js:864:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/app/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Module.load (internal/modules/cjs/loader.js:822:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:730:14)
+    at Module.require (internal/modules/cjs/loader.js:864:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/app/routes/users.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:971:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1011:10)
+    at Module.load (internal/modules/cjs/loader.js:822:32)
+Invalid Date: error: uncaughtException: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+Error: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1003:18)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\routes\users.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+Invalid Date: error: uncaughtException: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+Error: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1003:18)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\routes\users.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+Invalid Date: error: uncaughtException: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+Error: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1003:18)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\routes\users.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+Invalid Date: error: uncaughtException: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+Error: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1003:18)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\routes\users.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+Invalid Date: error: uncaughtException: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+Error: The module '\\?\C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\lib\binding\bcrypt_lib.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 64. This version of Node.js requires
+NODE_MODULE_VERSION 72. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object.Module._extensions..node (internal/modules/cjs/loader.js:1003:18)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\node_modules\bcrypt\bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Tazazo\Desktop\Tazaz\events\routes\users.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)

@@ -1,0 +1,12 @@
+Invalid Date: error: uncaughtException: illegal_argument_exception
+ResponseError: illegal_argument_exception
+    at IncomingMessage.response.on (C:\Users\Tazazo\Desktop\Tazaz\workers\node_modules\@elastic\elasticsearch\lib\Transport.js:287:25)
+    at IncomingMessage.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Invalid Date: error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+Invalid Date: error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
