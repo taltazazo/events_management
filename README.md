@@ -13,7 +13,8 @@ This project consists of 4 components:
 
 
 
-![Macro](https://user-images.githubusercontent.com/50877112/68336539-4b5c3180-00e7-11ea-8d4b-5b1f9e688b99.jpg)
+![Macro (2)](https://user-images.githubusercontent.com/50877112/68338122-7f852180-00ea-11ea-8207-948288428b9d.jpg)
+
 
 The data model look like that... 
 note: this is a NoSql db - so there are no relationships.
