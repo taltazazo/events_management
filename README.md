@@ -1,7 +1,7 @@
 Events Management
 
-The motivation is to orgnaize all the events around from concerte to soccer game in the neighborhood,
-to lecture. so the users can see in real time what is going around them.
+The motivation is to orgnaize all the events around. from concerte to soccer game in the neighborhood,
+to lecture, so the users can see in real time what is going around them.
 
 
 This project consists of 4 components: 
