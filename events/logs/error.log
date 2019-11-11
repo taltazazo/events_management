@@ -1,0 +1,6 @@
+Invalid Date: error: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "a@gmail.com" }
+Invalid Date: error: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "a@gmail.com" }
+Invalid Date: error: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "a@gmail.com" }
+Invalid Date: error: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "a@gmail.com" }
+Invalid Date: error: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "a@gmail.com" }
+Invalid Date: error: No document found for query "{ _id: 5dc963177e67d06b9c713922 }" on model "User"

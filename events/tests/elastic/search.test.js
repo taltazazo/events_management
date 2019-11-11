@@ -11,6 +11,7 @@ const { User } = require('../../models/user');
 
 describe('GET: _search', () => {
   beforeAll(async () => {
+    await Elastic.connect();
     await Elastic.initial();
     await User.deleteMany({});
     const userDetails = {
@@ -18,10 +19,8 @@ describe('GET: _search', () => {
       email: 'a@gmail.com',
       password: '12345',
       preferred: {
-        // byCity: true,
         myCity: 'Tel Aviv Yafo',
         byCategory: true,
-        // byCategoryInCity: true,
         myCategories: ['sport', 'tech']
       }
     };

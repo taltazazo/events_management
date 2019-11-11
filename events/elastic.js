@@ -2,6 +2,32 @@ const { Client } = require('@elastic/elasticsearch');
 
 const client = new Client({ node: 'http://localhost:9200' });
 
+async function connect() {
+  try {
+    await connectElastic();
+    console.log('connected to Elastic');
+  } catch (error) {
+    console.log(error.message);
+    process.exit(1);
+  }
+}
+const connectElastic = () =>
+  new Promise((resolve, reject) => {
+    let count = 0;
+    setInterval(function() {
+      client.ping({}, { requestTimeout: 3000 }, error => {
+        if (!error) {
+          clearInterval(this);
+          resolve();
+        }
+        if (count === 5) {
+          reject(new Error('cannot connect to elastic'));
+        }
+        count += 1;
+      });
+    }, 1000);
+  });
+
 async function insert(doc, id, index) {
   await client.index({
     index,
@@ -19,6 +45,15 @@ async function remove(id, index) {
     refresh: true
   });
 }
+async function search(query, index) {
+  const { body } = await client.search({
+    index,
+    body: query
+  });
+  return body.hits.hits;
+}
+module.exports.connect = connect;
+module.exports.search = search;
 module.exports.remove = remove;
 module.exports.insert = insert;
 
@@ -71,11 +106,3 @@ async function initial() {
   ]);
 }
 module.exports.initial = initial;
-async function search(query, index) {
-  const { body } = await client.search({
-    index,
-    body: query
-  });
-  return body.hits.hits;
-}
-module.exports.search = search;

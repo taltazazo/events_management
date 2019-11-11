@@ -1,10 +1,11 @@
-require('./logs/logger'); // should be before all for catching unhanled exception
+require('./logs/logger'); // should be before all for catching unhandled exceptions
 
 require('dotenv').config();
 
 const express = require('express');
 
 const app = express();
+
 require('./startup/db')();
 require('./startup/routes')(app);
 
