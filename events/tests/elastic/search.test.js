@@ -18,7 +18,7 @@ describe('GET: _search', () => {
       userName: 'aa',
       email: 'a@gmail.com',
       password: '12345',
-      preferred: {
+      prefs: {
         myCity: 'Tel Aviv Yafo',
         byCategory: true,
         myCategories: ['sport', 'tech']
@@ -30,7 +30,7 @@ describe('GET: _search', () => {
       admins: ['a@gmail.com'],
       address: {
         city: 'Tel Aviv Yafo',
-        street: 'Yigal Alon 98'
+        street: 'Alenbi 4'
       },
       description: 'Description',
       tags: ['a', 'c'],

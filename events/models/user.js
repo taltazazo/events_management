@@ -34,7 +34,7 @@ const UserSchema = new mongoose.Schema(
     passwordResetToken: String,
     passwordResetExpires: Date,
 
-    preferred: {
+    prefs: {
       byCategory: Boolean,
       myCity: String,
       myCategories: [String],
@@ -50,7 +50,7 @@ UserSchema.methods.transactionDelete = async function() {
   return transaction(deleteUser, this);
 };
 UserSchema.post('save', async function(doc) {
-  await Client.insert(_.pick(doc, ['email', 'preferred']), doc._id, 'users');
+  await Client.insert(_.pick(doc, ['email', 'prefs']), doc._id, 'users');
 });
 async function deleteUser(user) {
   await User.findByIdAndRemove(user._id).session(this.session);
@@ -78,7 +78,7 @@ function validation(user, isRequierd = false) {
     password: Joi.string()
       .min(5)
       .max(1024),
-    preferred: {
+    prefs: {
       byCategory: Joi.bool(),
       myCity: Joi.string(),
       myCategories: Joi.array().items(Joi.string()),

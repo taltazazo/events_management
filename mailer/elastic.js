@@ -12,7 +12,7 @@ async function getUsersInCity(city, category, alreadyHave = []) {
               filter: [
                 {
                   match_phrase: {
-                    'preferred.myCity': city
+                    'prefs.myCity': city
                   }
                 }
               ]
@@ -23,12 +23,12 @@ async function getUsersInCity(city, category, alreadyHave = []) {
               filter: [
                 {
                   term: {
-                    'preferred.byCategory': true
+                    'prefs.byCategory': true
                   }
                 },
                 {
                   term: {
-                    'preferred.myCategories': category
+                    'prefs.myCategories': category
                   }
                 }
               ]
