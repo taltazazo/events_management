@@ -1,6 +1,6 @@
 Events Management
 
-The motivation is to orgnaize all the events around. from concerte to soccer game in the neighborhood,
+The motivation is to organize all the events around. from concerte to soccer game in the neighborhood,
 to lecture, so the users can see in real time what is going around them.
 
 
